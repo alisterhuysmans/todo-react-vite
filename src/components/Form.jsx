@@ -1,6 +1,6 @@
 import React from "react";
 
-const Form = ({ setInputText, todos, setTodos, inputText }) => {
+const Form = ({ setInputText, inputText, todos, setTodos }) => {
     const inputTextHandler = (e) => {
         console.log(e.target.value);
         setInputText(e.target.value);
@@ -16,6 +16,7 @@ const Form = ({ setInputText, todos, setTodos, inputText }) => {
     return (
         <form>
             <input
+                value={inputText}
                 onChange={inputTextHandler}
                 type="text"
                 className="todo-input"

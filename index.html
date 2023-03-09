@@ -5,8 +5,10 @@
         <link rel="icon" type="image/svg+xml" href="/vite.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Todo React</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
             rel="stylesheet"
         />
         <link
@@ -15,8 +17,26 @@
             integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
             crossorigin="anonymous"
         />
-      <script type="module" crossorigin src="/todo-react-vite/assets/index-df8178ef.js"></script>
-      <link rel="stylesheet" href="/todo-react-vite/assets/index-157d6c1c.css">
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/todo-react-vite/assets/apple-touch-icon-e76bae70.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAABXNJREFUWEe1l31sU2UUxp/z3tutW7d1jLoP55SvgAM1EZkoJh2DDRCI4JQAQ1QyopggylTEKDKERZkJWSD8ASYC43PjQzFgHGyDMPGDCTHKQBFkglBwpV1ZN0rX9TXv7ddt19IRtvtPk/bee37nnOc85y2hj68Z9e1TiPg2RrQvKSF+wcZR1KkOSX0Zf9ph+6MaQj1jMICBE3hpVW7CShBxX9w+A5hQ05aaANQToxGMAUQAMXJycs+tzk2s7lOAZ7/lsbGsbQ+BphIDGCMvgAAhCxgKqoy6UwKi9ytQWsqeyyn5nAiLSVwCwJO9CgJ/aRjlbjPqTL0OMOWbm8WM+AZiJHnL7gVQsocHSBChtqPNNq1XASbstRo1Eh0kRgm+4OIzpAUeCEYcnJeEB3j1iNbg6Ewx7yowAQHF3mli8ve2DpKJH2VEWYFye8ruEaEne/HpEyWHe003gAdm/BDn0tzaA86NAC26tnP8pmijml9t0TNCDREbrbxc1W9Rbk9gVQuEKHjXjba/z0wIBijlLP3PunVE7A0oYws7OJ9s2pXfEAli7BEuy9etm4loTrDiw2XvhQOctubTr9W9/nRVEEB6Ud1CAioASKqAl9yd8tjru3MvdofglLfd+gFjWCn03l3xYVvgvmW5UlYz56k1QKvND5BWVJvPQPsBxIcG4qCfnOSYaNk++ab6N2OluVBibCcxxAQrPmju/T0XrXF1tFYfe3PcQvu18xYAXQqAYUb9MFmDIwSeEbHfHNtMJjYPR/Nc4h7jFuvjgLuWMaSE77lv5AKa4C7HiaaN789s/m7zFQDKTiB9UUO/eDhrAYyMIjY3QMtMO/I+zdnUkqYlVg8gOzBi4RXvawvnXZev1FVO/2394iYAt/1WnDG77kMQVkVTuvI7x21ZGzMva0z2K8Qw0WcqisqDRkzVAjER6LLfOPtzUeNHk+sAdARtw/SZh1aTJC3pEQCAlCH3dyZlGWTFZQNLxm+zgbHzj5+rw3Thne8XjRLjbFfSUF1kyKsYpkkfcRjEsqJB6DJSkDIkE0zyldubaYjX+yEYcafNvP7Ye6M+hs1mA+AOjSFEGGMoqJikMTyyA0S6SBCxeh36Dx8ASWa+1ep1uWDFq9vivm2vOV0+Z575bEMLAEW84QAERIJhSmWxnJQptpgcepOkjYFhxEDIsRqVy1G3JaP2fe7ubLp0YM0LF3eXC/9wRkrM5wMM0OtTC78sk7TJC9RrmiSGfg8PQExCfNA8+zNVyh8YNWXTwWU2nzrw/Jm1xb8AcNyptWonlOINT6Qm5q3YwjRxBcpDREgakAmtQe/38iDheVerx4R8ENxhv3R6/q/L874G0B5NV6HLKCbxsZcG6rLnfkWSnB2XZoAuM1W1x9WLJqzXuzstl1c0Lhkp7LwtVPGRNBD6vTbZWPpk/EO5+5KHD+3PVKLznGyCDxbqTdflsG5vXD31bVw9ZxU2Gy17pcgRbtJlFFYWJueM38gY0/qCKK4XBKC22Vs/nt/87izryd1XIym+pxXwgSUOWXqyRJOcsYwx8pyifD0PgeDurmbL8crpF6uW/qG22XupgHhWQuLQfkNL9q+T4/SzxMLxHy7VBwxy37SfPz773NoXj4ba7L0CiOfl5DFFmemTVlWxWO3oUJsV29XRcuGts2XPbA1ns70BIN4Rc9/0suGGnLn7SZYfVNtsV9t/FU3LjZ8AreKc0M1mewtAvCcus7h6XNLgMbuYJCknXndn+8F/vpg9v725UdhsjxR/NyIMZ9m6QYsbXtamDSrnLuc586HPZrYc29DsO1j0JNt7ARDPMgCJGYXlgzv+/d1qO7HVFM1mewJ1t39MxP0ab7/DbreeBFXf8z9t+40OK6yoUAAAAABJRU5ErkJggg=="
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAkdJREFUOE+Vk19Ik1EYxt/3PWc5t1TmZvtGF1lG4IgigqBg6TYaIkgtSmsQRVQQEeZNIl44SKKLLorspguJZFEZlRRMy03BQhQhCaOIMDDCWczNbGxj8zvx7Z9radh3efjO7zzP8z4vwn98jgGhLeMRP3HyP6zRtClXcc333YKce395iPAYYygTiVMPatf3rBnQ8GKxnUh0EkNgDIEYRImTdRngdhOM7VGBtz5eqMrxNHRIhfSYGLBlQAoylANILn8XCGGJJ+X9od4DC1mI/f78DsZxhHEszXsdGCM5vjB3JgWQXL7zCHBbyUQIeB5IBp3Q27hk6Z6t4OqiUUZYxRiAAshCEpHQDW/TpssouQYVH/0AuC4nXdA1nbO2Qx8NehmhLV+2ApIT0f63nSePzL17GUHTcd8wINQU+JZNu7a+KS7XWlKBcUgHRwgoEh+/+j22D3daZlNjNB581ERavQcAWBailcpBv21jTm5aOgAjMR+cGrFPXnVOZv9VMuAVziduXlzWrhyqSjRgMG8GpqIMIOOdIBELfGocb93XBwAiHwAAlWrpaJeHaUsP66q3AC/imVlnZs5RJBcDbeOXtl8HgKV8u7kxluw+ZzBaLw6qjYad6dDSLyve5djPnomWurMAn//qyB9NNJ24V60z24aIM2O6bQgox0an+zrqw8N3wyvVvrDKWNn8yqExmZ8xTmpEeSb8fsA60316erWdWWkXqKp14kKRTroS/TbV8OVW3ev80ApBqy0T32Bv1n/33fwBAPK/NvY3rPinWueDGGYAAAAASUVORK5CYII="
+        />
+        <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiIiwic2hvcnRfbmFtZSI6IiIsImljb25zIjpbeyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtMTkyeDE5Mi5wbmciLCJzaXplcyI6IjE5MngxOTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn0seyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtNTEyeDUxMi5wbmciLCJzaXplcyI6IjUxMng1MTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn1dLCJ0aGVtZV9jb2xvciI6IiNmZmZmZmYiLCJiYWNrZ3JvdW5kX2NvbG9yIjoiI2ZmZmZmZiIsImRpc3BsYXkiOiJzdGFuZGFsb25lIn0=" />
+      <script type="module" crossorigin src="/todo-react-vite/assets/index-5bfa9bf1.js"></script>
+      <link rel="stylesheet" href="/todo-react-vite/assets/index-1ef7dc5d.css">
     </head>
     <body>
         <div id="root"></div>
